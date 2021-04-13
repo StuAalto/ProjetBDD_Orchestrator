@@ -4,9 +4,9 @@
 Feature: TestBDD_JD
 
 	Scenario Outline: TestBDD_JD
-		Given Given today is Sunday
-		When When I ask whether it's Friday yet
-		Then Then I should be told <answer>
+		Given today is Sunday
+		When I ask whether it's Friday yet
+		Then I should be told <answer>
 
 		@ko
 		Examples:
